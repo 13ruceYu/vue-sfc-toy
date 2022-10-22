@@ -1,9 +1,10 @@
 <template>
   <div>
+    <h1>{{count}}</h1>
     <h1>{{count + 1}}</h1>
     <h1>{{count + 2}}</h1>
-    <button @click="plus(1)">+</button>
-    <button @click="minus(2)">-</button>
+    <button @click="plus(1)">+1</button>
+    <button @click="minus(2)">-2</button>
     <button @click="add100">Add 100</button>
   </div>
 </template>
